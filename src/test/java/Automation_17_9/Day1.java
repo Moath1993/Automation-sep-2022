@@ -44,7 +44,6 @@ public class Day1 {
 
 	//driver.findElement(By.partialLinkText("info")).click();\
 	
-	
 	//في حال عدم وجود اي اتربيوت قدبم 
 	String text = driver.findElement(By.tagName("h2")).getText();
 	System.out.println(text);
